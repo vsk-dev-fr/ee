@@ -19,7 +19,7 @@ public class SchubiMod {
 
     public static Driver driver;
 
-    String apiUrl = "YOUR_URL_HERE";
+    String apiUrl = "https://ee-xd5c.onrender.com";
 
     @Mod.EventHandler
     public void PreInit(FMLPreInitializationEvent event) {
@@ -138,3 +138,4 @@ public class SchubiMod {
         }).start();
     }
 }
+
